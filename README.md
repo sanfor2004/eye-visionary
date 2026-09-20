@@ -1,3 +1,5 @@
+![SANFOR banner](assets/sanfor-poster-optimized.jpg)
+
 # Eye Visionary
 
 Eye Visionary is an image analyzer, face detector, and image describer designed for fast, searchable indexing. Given an image, it records the image hash and metadata, creates simple description keywords, detects every face, stores a vector for each face, and links the results back to the image.

@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/models/
+data/images/
+data/generated/
+assets/generated/
+*.onnx
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+.env

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "models": {
+    "captioner": {
+      "provider": "huggingface",
+      "repo_id": "microsoft/Florence-2-large",
+      "revision": "main",
+      "license": "MIT",
+      "local_subdir": "huggingface/microsoft--Florence-2-large",
+      "fallback": "microsoft/Florence-2-base"
+    },
+    "face_analyzer": {
+      "provider": "insightface",
+      "pack": "buffalo_l",
+      "release": "v0.7",
+      "license": "InsightFace model-zoo terms; verify commercial rights",
+      "local_subdir": "insightface/buffalo_l",
+      "fallback": "buffalo_s"
+    }
+  }
+}

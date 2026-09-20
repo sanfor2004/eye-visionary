@@ -13,3 +13,4 @@ assets/generated/
 *.pth
 *.ckpt
 .env
+*.egg-info/
